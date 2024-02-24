@@ -1,0 +1,84 @@
+main{
+  background-color:#f8f0f0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+.edit_box{
+  background-image: url(../images/doodle.jpg);
+  background-position:center;
+  background-size: contain;
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+  height:700px;
+  width:700px;
+  gap:20px;
+  border-radius: 20px;
+}
+.profile_pic{
+  width:180px;
+  margin-top: 25px;
+}
+.form_box{
+ 
+  height:400px;
+  width:400px;
+  background-color:rgba(255,255,255, 0.908) ;
+  border-radius: 10px;
+}
+.ed_txt{
+  width:100%;
+  margin:30px 20px;
+      font-size:16px;
+      border:none;
+      outline:none;
+  
+}
+.ed_txt p{
+  padding-left: 5px;
+  padding-bottom:5px;
+  color:#5c26d9;
+  font-weight: bold;
+}
+.ed_txt input{
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(0, 0, 0,0.1);
+  height:40px;
+  width:90%;
+  padding:0 5px;
+  color:#5c26d9;
+  font-weight: 500;
+}
+.ed_txt input::placeholder{
+  color:#5c26d9;
+  text-align:left;
+  font-weight: 500;
+}
+input:focus{
+  border:none;
+}
+.ed_button{
+  width:35%;
+  height:40px;
+  border:none;
+  background:#5c26d9;
+  border-radius:25px;
+  font-size:18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+  font-weight: bold;
+   transform:translate(85%,20%);
+   cursor:pointer;
+   outline:none;
+}
+.ed_button:hover{
+  border-color:#5c26d9;
+transition:0.5s;
+opacity: 0.8;
+}

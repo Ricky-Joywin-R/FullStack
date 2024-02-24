@@ -1,0 +1,31 @@
+.home_box{
+ display:flex;
+ align-items: left;
+ flex-direction: column;
+}
+.box1{
+  margin-top: 40px;
+  margin-bottom:20px;
+  margin-left:20px;
+  height:82vh;
+  width:97%;
+  display:flex;
+  flex-direction: row;
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+  border-radius: 50px;
+}
+.desc{
+  margin-left:50px;
+  margin-top: 50px;
+  width:50%;
+  color:#fff;
+}
+.desc h1{
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.desc p{
+  text-align:justify;
+  font-size: 25px;
+  line-height: 2.0;
+}
