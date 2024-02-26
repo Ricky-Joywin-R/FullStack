@@ -1,0 +1,16 @@
+.success_box{
+  height:300px;
+  width:600px;
+  border-radius:20px;
+  background:linear-gradient(to right, #9d50bb, #6e48aa);
+  margin-top: 150px;
+  margin-left:500px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  gap:90px;
+  color:#fff;
+}
+.success_box h1{
+  margin-top: 20px;
+}
